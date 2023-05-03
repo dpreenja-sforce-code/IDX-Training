@@ -1,16 +1,15 @@
 {
-  "orgName": "dpreenja company",
-  "edition": "Developer",
+  "orgName": "Package Dev Org",
+  "edition": "Enterprise",
   "features": [
-    "EnableSetPasswordInApi",
     "MaxApexCodeSize:10"
   ],
   "settings": {
-    "lightningExperienceSettings": {
-      "enableS1DesktopEnabled": true
-    },
     "mobileSettings": {
       "enableS1EncryptedStoragePref2": true
+    },
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
     },
     "communitiesSettings": {
       "enableNetworksEnabled": true

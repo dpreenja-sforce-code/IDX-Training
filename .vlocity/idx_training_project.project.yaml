@@ -1,0 +1,34 @@
+Name: IDX Training Project
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - DataRaptor/CPQCreateOpportunity
+    - DataRaptor/CPQGetGroupsToCreateList
+    - DataRaptor/CPQGetProductsFromAssets
+    - DataRaptor/cpqGetRecordType
+    - DataRaptor/CreateOrderRequestData
+    - DataRaptor/CreateQuoteRequestData
+    - DataRaptor/GetAccountFromAsset
+    - DataRaptor/GetExistingAssetsFromOrderItem
+    - DataRaptor/UpdateOrderAccount
+    - IntegrationProcedure/CPQ_CreateOrder
+    - IntegrationProcedure/CPQ_StartBulkCreateGroups
+    - OmniScript/CPQ_AssetViewerOrderFlow_Multi-Language
+    - OmniScript/CPQ_ChangeToOrder_Multi-Language
+    - OmniScript/CPQ_SingleMove_Multi-Language
+    - flexipages/Vlocity_Enterprise_Sales_App_UtilityBar.flexipage
+    - lwc/cfCpqAssetViewerContainer
+    - lwc/cfCpqAssetSearch
+    - lwc/cfCpqAssetViewerAdvancedSearch
+    - lwc/cfCpqAssetViewerChildLineItem
+    - lwc/cfCpqAssetViewerGroupLineItems
+    - lwc/cfCpqAssetViewerLineItem
+    - lwc/cfCpqAssetViewerSelectAllAssets
+VlocityTypesToFetch:
+    - DataRaptor
+    - IntegrationProcedure
+    - OmniScript
+SalesforceTypesToFetch:
+    - FlexiPage
+    - LightningComponentBundle
+    - Profile
+    - Settings
